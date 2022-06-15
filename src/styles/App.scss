@@ -1,0 +1,23 @@
+*,
+::after,
+::before {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+div {
+  font-family: "Century Gothic";
+}
+@import url("./mainscree.scss");
+@import url("./sidebar.scss");
+@import url("./nav.scss");
+@import url("./orders.scss");
+@import url("./employees.scss");
+@import url("./customer.scss");

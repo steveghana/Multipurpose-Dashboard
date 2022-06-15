@@ -1,0 +1,38 @@
+.employeesGrid{
+    .grid_headers {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgb(201, 201, 201);
+        :first-child {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: .6em;
+        }
+        .header {
+          padding: 0.5rem ;
+        }
+      } 
+      .employee_container{
+          display: flex;
+          justify-content: space-between;
+          border: 1px solid rgb(201, 201, 201);
+          :first-child {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              padding-left: .2em;
+            div {
+              border: none;
+            }
+          }
+          div {
+            padding: 0.3rem 0rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            // width: calc(100% / 6);
+          }
+      }
+}

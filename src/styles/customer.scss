@@ -1,0 +1,46 @@
+.customer_gridheaders {
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid rgb(201, 201, 201);
+    .customer_header {
+      padding: 0.5rem 0rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .customerGrid_container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(201, 201, 201);
+    :first-child {
+      div {
+        border: none;
+      }
+    }
+    div {
+      padding: 0.3rem 0rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    //   width: calc(100% / 9);
+    }
+  
+  }
+//   .numbs {
+//     padding: 2rem;
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 3rem;
+//     .num {
+//       padding: 0.7rem;
+//       border-radius: 50%;
+//       color: rgb(0, 0, 0);
+//       cursor: pointer;
+//     }
+//   }
+  
